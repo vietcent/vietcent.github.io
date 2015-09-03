@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px; }
+
+.nav li img {
+  height: 35px;
+  padding-bottom: 5px; }
+
+.jumbotron img {
+  text-align: center; }
+
+.row {
+  clear: both; }
