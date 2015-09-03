@@ -86,13 +86,16 @@ header{
 	padding: 10px;
 }
 
-.worklist{
-	
-	li{
-		list-style: none;
-		float: left;
-		padding: 0 10px 0 10px;
-		margin-bottom: 30px;
+.recentWork{
+	h2{
+		text-align: center;
+	}
+	img{
+		height: 100%;
+		width: 100%;
+	}
+	h4{
+		text-align: center;
 	}
 }
 
