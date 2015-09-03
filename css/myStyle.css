@@ -62,11 +62,13 @@ header {
   background: #ededed;
   padding: 10px; }
 
-.worklist li {
-  list-style: none;
-  float: left;
-  padding: 0 10px 0 10px;
-  margin-bottom: 30px; }
+.recentWork h2 {
+  text-align: center; }
+.recentWork img {
+  height: 100%;
+  width: 100%; }
+.recentWork h4 {
+  text-align: center; }
 
 footer {
   background-color: #3b5a76;
