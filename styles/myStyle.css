@@ -10,3 +10,8 @@ body {
 
 .row {
   clear: both; }
+
+footer {
+  padding-top: 100px; }
+  footer .footerContent {
+    background-color: whitesmoke; }
