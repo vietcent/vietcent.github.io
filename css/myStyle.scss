@@ -1,7 +1,7 @@
 // variables
 
 $primaryColor: #3b5a76;
-$backgroundColor:#ededed;
+$backgroundColor:grey;
 $textColor:#363636;
 $font: 16px;
 
@@ -45,6 +45,7 @@ header{
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: -1px;
+		text-align: center;
 	}
 }
 
