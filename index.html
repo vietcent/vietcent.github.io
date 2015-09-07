@@ -130,49 +130,57 @@
 					<h2>{Skills}</h2>
 					<div class="progress">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
-						style="width: 50%">
+						style="width: 50%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>Unix</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
-						style="width: 50%">
+						style="width: 50%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>SQL</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
-						style="width: 65%">
+						style="width: 65%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>C#</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
-						style="width: 50%">
+						style="width: 50%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>Java</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-						style="width: 70%">
+						style="width: 70%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>Web Development (HTML,CSS,Javascript)</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
-						style="width: 45%">
+						style="width: 45%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>Jquery</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-						style="width: 100%">
+						style="width: 100%" 
+						data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Throughout my college education and work experience, I have came across numerous situations that required me to direct multiple and individual people to a number of tasks either in person or remotely.">
 							<span>Public and Interpersonal Communication</span>
 						</div>
 					</div>
 					<div class="progress">
 						<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
-						style="width: 100%">
+						style="width: 100%"
+						data-toggle="popover" data-trigger="hover" data-placement"top" data-content="">
 							<span>Microsoft Office (Excel/PowerPoint/Word)</span>
 						</div>
 					</div>
@@ -193,6 +201,8 @@
 						<a href="http://vietcent.github.io/photoAppWebsite_ex/">
 							<img src="images/gamma.png" alt="Gamma"></a>
 						<h4>Photo App Website</h4>
+					</div>
+					<div class="col-md-6">
 					</div>
 				</div>
 			</div>
@@ -248,6 +258,13 @@
 		ga('create', 'UA-67256576-1', 'auto');
 		ga('send', 'pageview');
 	</script>
+	
+	<!--Popover animation-->
+	<script>
+	$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+	});
+</script>
 </body>
 
 </html>
