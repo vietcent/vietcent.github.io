@@ -20,7 +20,8 @@ h2 {
 .container-main {
   background: whitesmoke;
   margin-top: 80px;
-  padding: 0 30px 30px 30px; }
+  padding: 0 30px 30px 30px;
+  border-radius: 50px; }
 
 header {
   min-height: 100px;
